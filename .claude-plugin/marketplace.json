@@ -1,0 +1,17 @@
+{
+  "name": "easyhost",
+  "description": "EasyHost for Claude: ask about your vacation rental's guests, bookings and availability.",
+  "owner": {
+    "name": "EasyHost",
+    "url": "https://easyhost.co.il"
+  },
+  "plugins": [
+    {
+      "name": "easyhost",
+      "source": "./plugins/easyhost",
+      "description": "Daily briefings, availability answers and guest lookups for Israeli vacation rentals, read-only. MCP server plus skills.",
+      "category": "productivity",
+      "tags": ["vacation rental", "property management", "bookings", "hospitality", "mcp"]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "easyhost",
+  "displayName": "EasyHost",
+  "version": "1.0.0",
+  "description": "Ask about your vacation rental from Claude: who is arriving, who has not paid, which units are free on given dates, and a guest's history. Read-only access to your EasyHost (אירוח בקליק) account. Includes the EasyHost MCP server and skills.",
+  "author": {
+    "name": "EasyHost",
+    "email": "office@bulldog-adv.com",
+    "url": "https://easyhost.co.il"
+  },
+  "homepage": "https://app.easyhost.co.il/docs/claude",
+  "license": "MIT",
+  "keywords": ["vacation rental", "zimmer", "property management", "bookings", "availability", "hospitality", "israel", "mcp"],
+  "icon": "./logo.png",
+  "documentationUrl": "https://app.easyhost.co.il/docs/claude",
+  "supportUrl": "mailto:office@bulldog-adv.com",
+  "privacyPolicyUrl": "https://app.easyhost.co.il/privacy",
+  "termsOfServiceUrl": "https://app.easyhost.co.il/terms",
+  "mcpServers": {
+    "easyhost": {
+      "type": "http",
+      "url": "https://app.easyhost.co.il/api/mcp"
+    }
+  }
+}
